@@ -1,9 +1,10 @@
 #include<iostream>
 #include<algorithm>
+#include<string.h>
 using namespace std;
 int main(){
-		int arr[]={1,23,53,0,34,400};
-		int n=sizeof(arr)/sizeof(int);
+		char arr[]="XYZ";
+		int n=strlen(arr);
 		rotation(arr,arr+n);
 		for(int i=0;i<n;i++){
 		cout<<arr[i]<<" ";
